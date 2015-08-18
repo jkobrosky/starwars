@@ -1,0 +1,31 @@
+{
+  "name": "starwars",
+  "version": "1.0.0",
+  "description": "Star wars trivia game",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jkobrosky/starwars.git"
+  },
+  "keywords": [
+    "star",
+    "wars"
+  ],
+  "author": "Joseph Kobrosky",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jkobrosky/starwars/issues"
+  },
+  "homepage": "https://github.com/jkobrosky/starwars#readme",
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-contrib-less": "^1.0.1",
+    "grunt-contrib-watch": "^0.6.1",
+    "jit-grunt": "^0.9.1",
+    "less": "^2.5.1"
+  }
+}
