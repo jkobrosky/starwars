@@ -1,6 +1,40 @@
+* {
+  box-sizing: border-box;
+}
 html,
 body {
-  background: #bada55;
+  background: #000000;
   height: 100%;
   width: 100%;
+  font-family: 'Open Sans', sans-serif;
+}
+h1 {
+  color: #ffe300;
+}
+.symbols {
+  color: #ffffff;
+  font-size: 5em;
+  margin: 0 20px;
+}
+.header {
+  display: flex;
+}
+.header-image {
+  max-height: 75px;
+}
+.header-text {
+  color: #ffe300;
+  font-size: 2em;
+  margin: auto 0;
+}
+.title {
+  color: #ffe300;
+  font-size: 8em;
+}
+.no-margin {
+  margin: 0;
+}
+.center {
+  display: flex;
+  justify-content: center;
 }
